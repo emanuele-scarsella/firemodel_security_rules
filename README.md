@@ -1,3 +1,9 @@
+# THIS FORK IS UNDER DEVELOPMENT
+
+## goal:
+The goal of this fork is to implement as a new target language the ability to automatically generate firestore security rules for schema validation.
+
+# ORIGINAL REPOSITORY:
 # firemodel [![CircleCI](https://circleci.com/gh/visor-tax/firemodel.svg?style=svg)](https://circleci.com/gh/visor-tax/firemodel)
 
 > Type-safe, cross-platform models for [Firestore](https://firebase.google.com/docs/firestore/).
