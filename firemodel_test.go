@@ -4,6 +4,7 @@ import (
 	_ "github.com/visor-tax/firemodel/langs/go"
 	_ "github.com/visor-tax/firemodel/langs/ios"
 	_ "github.com/visor-tax/firemodel/langs/ts"
+	_ "github.com/visor-tax/firemodel/langs/sr"
 
 	"bytes"
 	"io"
@@ -45,6 +46,7 @@ func (ctx *testCtx) firemodelConfig(testName string) *firemodel.Config {
 			{Language: "ios", Output: "./swift/"},
 			{Language: "go", Output: "./go"},
 			{Language: "ts", Output: "./ts/"},
+			{Language: "sr", Output: "./sr/"},
 		},
 		SourceCoderProvider: ctx.newTestSourceCodeProvider(testName),
 	}
