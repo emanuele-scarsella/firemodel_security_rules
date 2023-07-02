@@ -8,6 +8,7 @@ import (
 	_ "github.com/visor-tax/firemodel/langs/go"
 	_ "github.com/visor-tax/firemodel/langs/ios"
 	_ "github.com/visor-tax/firemodel/langs/ts"
+	_ "github.com/visor-tax/firemodel/langs/sr"
 	"github.com/visor-tax/firemodel/version"
 )
 
